@@ -28,6 +28,7 @@ int main() {
     }
 ```
 
+
 ###  3. Move the SDL files into your project
 It might help to use Finder for this part. Navigate to the place where SDL2 installed. For me, that was:
 /usr/local/Cellar/sdl2/2.0.5
