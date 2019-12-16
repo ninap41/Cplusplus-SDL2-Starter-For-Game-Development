@@ -1,4 +1,4 @@
-This is a super simple guide to get SDL2 installed and linked into your project so you can get to the fun stuff (game development) quickly. 
+Below is a simple guide to how this project was made. It goes step by step to get SDL library linked into your project so you can get to the fun stuff (game development) quickly. I made this primarily because most C++ SDL2 configuration videos on youtube were for Xcode. Comments were riddled with complaints about SDL library not being read on #include. Coming from a JS background, I dislike Xcode and prefer VSCode, so I wanted a repo to exist for people to just clone this, compile code simply, and start playing around with game development.
 
 
 ## SETUP
@@ -43,7 +43,7 @@ and copy the contents (some folders and some .a and .dylib files) into
 /myproject/lib
 
 ###  4. Create your Makefile to compile using SDL2
-In myproject/Makefile, change includes line to 
+In myproject/Makefile, change the this assignment to include SDL2. 
 ```
 INCLUDE	:= include -L lib -l SDL2-2.0.0
 ```
