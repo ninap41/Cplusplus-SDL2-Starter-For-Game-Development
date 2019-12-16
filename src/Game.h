@@ -3,7 +3,6 @@
 #include <iostream>
 #include <string>
 #include "Game.h"
-#include "functions.h"
 
 using namespace std;
 
