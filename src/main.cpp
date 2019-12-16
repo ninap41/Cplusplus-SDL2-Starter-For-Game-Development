@@ -4,10 +4,10 @@ using namespace std;
 #include "Game.h"
 
 int main() {
-	Game game;
-	while(game.isPlayin()) {
-    std::cout << "AHHHH Loop happening" << std::endl;
-    }  
+	// Game game;
+	// while(game.isPlayin()) {
+    // std::cout << "AHHHH Loop happening" << std::endl;
+    // }  
 
 	std::cout << "Hello Easy C++ project!" << std::endl;
 
